@@ -7,7 +7,9 @@ HERMES is a project created by **smartbirds** team (Greece) for their participat
 Team consists of 3 high school students, Niobe, Thymios, Faidon and their coach Mr. Panos Verras.
 
 ## Why we created HERMES?
+
 ![WRO2023 theme - Connecting the World](/images/CONNECTING-THE-WORLD-2023-01-2.png "WRO2023 theme - Connecting the World")
+
 After lots of research on this season’s theme “Connecting the World”, we came to the idea of HERMES, a multifunctional robotic system that maintains a more stable telecommunication network/infrastructure working as single node (p2p) or in combination with other units (HERMES mesh network). HERMES is based on our research on the fields of today’s IT infrastructure, undersea cable networks, socio-economic impact of IT on our daily life, marine traffic, ship design, underwater and overwater scientific and climate data and UN Sustainability Goals.
 
 Since the beginning of time, waterways have played an important role in human communications, linking geographies and societies far and wide. Today, water not only facilitates transportation and trade but also connects nations and continents across the globe through the worldwide system of computer networks. The internet connects over 5 billion people around the world, with an impressive 99% of data being transferred through undersea fiber-optic cables. Damage on the physical underwater infrastructure could cause a multitude of problems due to internet outage, especially in cases of remote areas where an entire community relies on a few cables or even just one.
