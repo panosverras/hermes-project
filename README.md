@@ -95,4 +95,3 @@ HERMES is a truly innovative addition to today's interconnected society.
 
 Humankind now can rely on this stable communication network for critical sectors of daily life such as good health and well being (goal 3), quality education (goal 4), reduced inequalities (goal 10), decent work and economic growth (goal 8) and many more.
 
-
