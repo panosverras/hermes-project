@@ -4,7 +4,7 @@ WRO2023 Future Innovators project (smartbirds team)
 ![HERMES logo](/images/HERMES-logo.png "HERMES logo")
 
 HERMES is a project created by **smartbirds** team (Greece) for their participation to the World Robot Olympiad^TM^ 2023.
-~Team consists of 3 high school students, Niobe, Thymios, Faidon and their coach Mr. Panos Verras.~
+Team consists of 3 high school students, Niobe, Thymios, Faidon and their coach Mr. Panos Verras.
 
 ## Why we created HERMES?
 ![WRO2023 theme - Connecting the World](/images/CONNECTING-THE-WORLD-2023-01.png "WRO2023 theme - Connecting the World")
