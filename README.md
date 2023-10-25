@@ -22,16 +22,64 @@ The problems arising from lack of internet access are numerous and complex, so i
 
 HERMES is an innovative robotic solution designed to act as a data bypass link in the event of an undersea cable fault, ensuring uninterrupted data flow. HERMES can also replace the role of underwater fiber-optic cables near the shore and therefore open valuable sea lanes that were restricted to protect those cables. Additionally, HERMES can provide an internet connection to remote regions. The robot also has environmental monitoring functions and other capabilities which focus on its surroundings.
 
+## HERMES key features
+
+**Wireless Network Technology:** The central idea behind this robotic solution is to decrease the possibility of cable damage, by replacing the cable communications with a wireless network, until repaired or permanently.
+**Navigation and Bypass:** HERMES is able to navigate to the coordinates of the accident and bypass the communication.
+**Network Extender for Remote Areas:** A system that can also run as a network extender for unreachable remote areas.
+**Environmental Monitoring:** Additionally, our model operates as a station to collect data and monitor the environment, in order to identify environmental anomalies and spot air and water pollution.
+**Safety in water:** Hermes can warn vessels and assist in search and rescue missions by detecting the presence of living organisms.
+
 ## How we created HERMES
 HERMES system consists of 3 parts, although its name was given by the main vessel. 
 
 ![HERMES system](/images/HERMES-system.png "HERMES system")
 
-- Underwater station: this station could be attached to the already existing underwater cable repeaters and convert wired signal to wireless and vice-versa.
-- HERMES: HERMES is able navigate autonomusly anywhere on the planet and receive and retransmit wireless signal from both under and over water stations (such as other HERMES or land station, or underwater station). Additionally, we developed some more additional functionallities this USV:
-  -   HERMES can act as a remote IOT station with its capability to collect environment data
-  -   HERMES can warn nearby ships about potential dangers using the International Code of Signals
-  -   HERMES can help in search and rescue missions as it can detect life in water
-- Land station: Land station can receive signal from HERMES and convert it to wired (forwardning it to the existing land cable network), and vice-versa.
+All 3 subsystems where designed in Fusion 360 and 3D printed. Due to restrictions on printing volume but also on our concept of using two colors, these susbsystems consist of several parts. In folder Design/STL you can find all these parts organized by the subsystem name. Using those files you will be able to slice and print an exact copy of HERMES, land station and underwater station. Indicatively, printing time required is more than 200 hours on a low-cost printer (like the one we used).
+
+Raspberry Pi PICO is used as the main controller on all subsystems. Especially HERMES included two of them in order to balance proccessing speed and control in a better way all its functionalities. Programming language used is Python and in specific controllers are using [Circuitpython](https://circuitpython.org/) that is a user-friendly python version dedicated to micro-controllers. In folder Code you can find our programs for its one of the subsystems. Please mention that HERMES includes two PICO's so you will find two programs in that folder.
+
+Electronics used are from several manufacturers, depending on their capabilities, their availability and our purpose (present our idea at WRO2023). Below you may find a list of the ones we used and a diagram for their connection.
+
+### HERMES
+- 2x Rasperry Pi PICO
+- 2x Pico expansion board
+- 3x IIC to UART module
+- 4x HC12 RF module
+- 4x RF waterproof antenna
+- 1x PH sensor kit
+- 1x Conductivity sensor kit
+- 1x DS18B20 waterproof sensor
+- 1x TSL2591 sensor
+- 1x BME680 sensor
+- 1x MQ135 sensor
+- 1x GPS module
+- 1x BNO 055 Euler angles sensor
+- 1x Thernal imaging camera
+- 2x Solar panel 3.5W
+- 2x Solar power manager 10000mAh
+- 1x DC step-down 5v dual usb
+- 1x Dual motor driver module
+- 2x thruster (dc motor)
+
+![HERMES circuit](/images/HERMES-circuit.png "HERMES circuit")
+
+### LAND station
+- 1x Rasperry Pi PICO
+- 1x Pico expansion board
+- 2x HC12 RF module
+- 4x RF waterproof antenna
+
+![LAND station circuit](/images/STATION-circuit.png "LAND station circuit")
+
+### UNDERWATER station
+- 1x Rasperry Pi PICO
+- 1x Pico expansion board
+- 2x HC12 RF module
+- 4x RF waterproof antenna
+
+![LAND station circuit](/images/STATION-circuit.png "LAND station circuit")
+
+## Innovation and social impact of HERMES
 
 
