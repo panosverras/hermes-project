@@ -84,5 +84,12 @@ Electronics used are from several manufacturers, depending on their capabilities
 
 
 ## Innovation and social impact of HERMES
+HERMES is a truly innovative addition to today's interconnected society. 
+
+**Safety and Reliability for Users:** HERMES aims to increase the safety and reliability of telecom systems for users, making essential everyday networks more secure and with a steadier infrastructure. 
+**A Global Transformation:** Our vision is to alter worldwide communications for the better, by establishing the most stable transmission system ever. 
+**Rapid Deployment and Integration:** Being a low cost and open source project it allows the rapid deployment and integration into the global internet infrastructure.
+
+> Humankind now can rely on this stable communication network for critical sectors of daily life such as good health and well being (goal 3), quality education (goal 4), reduced inequalities (goal 10), decent work and economic growth (goal 8) and many more.
 
 
