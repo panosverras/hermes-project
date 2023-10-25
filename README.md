@@ -8,7 +8,7 @@ Team consists of 3 high school students, Niobe, Thymios, Faidon and their coach 
 
 ## Why we created HERMES?
 
-![WRO2023 theme - Connecting the World](/images/CONNECTING-THE-WORLD-2023-01-2.png "WRO2023 theme - Connecting the World")
+![WRO2023 theme - Connecting the World](/images/CONNECTING-THE-WORLD-2023-01-3.png "WRO2023 theme - Connecting the World")
 
 After lots of research on this season’s theme “Connecting the World”, we came to the idea of HERMES, a multifunctional robotic system that maintains a more stable telecommunication network/infrastructure working as single node (p2p) or in combination with other units (HERMES mesh network). HERMES is based on our research on the fields of today’s IT infrastructure, undersea cable networks, socio-economic impact of IT on our daily life, marine traffic, ship design, underwater and overwater scientific and climate data and UN Sustainability Goals.
 
