@@ -3,8 +3,10 @@ WRO2023 Future Innovators project (smartbirds team)
 
 ![HERMES logo](/images/HERMES-logo.png "HERMES logo")
 
-HERMES is a project created by **smartbirds** team (Greece) for their participation to the World Robot Olympiad^TM^ 2023.
+HERMES is a project created by **smartbirds** team (Greece) for their participation to the World Robot Olympiad 2023.
 Team consists of 3 high school students, Niobe, Thymios, Faidon and their coach Mr. Panos Verras.
+
+You can watch a short introduction of our project [here](https://www.youtube.com/watch?v=-QXrDMuEW-o).
 
 Our project is open-source under the MIT licence. Feel free to copy, modify, reproduce in order to create a better world!
 
@@ -37,7 +39,7 @@ HERMES system consists of 3 parts, although its name was given by the main vesse
 
 ![HERMES system](/images/HERMES-system.png "HERMES system")
 
-All 3 subsystems where designed in Fusion 360 and 3D printed. Due to restrictions on printing volume but also on our concept of using two colors, these susbsystems consist of several parts. In folder Design/STL you can find all these parts organized by the subsystem name. Using those files you will be able to slice and print an exact copy of HERMES, land station and underwater station. Indicatively, printing time required is more than 200 hours on a low-cost printer (like the one we used).
+All 3 subsystems where designed in Fusion 360 and 3D printed. Due to restrictions on printing volume but also on our concept of using two colors, these susbsystems consist of several parts. In folder Design/STL you can find all these parts organized by the subsystem name. Using those files you will be able to slice and print an exact copy of HERMES, land station and underwater station. Indicatively, printing time required is more than 200 hours on a low-cost printer (like the one we used). We have rendered a small video demonstrating the assembly steps for the HERMES vessel (find it under Videos folder).
 
 Raspberry Pi PICO is used as the main controller on all subsystems. Especially HERMES included two of them in order to balance proccessing speed and control in a better way all its functionalities. Programming language used is Python and in specific controllers are using [Circuitpython](https://circuitpython.org/) that is a user-friendly python version dedicated to micro-controllers. In folder Code you can find our programs for its one of the subsystems. Please mention that HERMES includes two PICO's so you will find two programs in that folder.
 
